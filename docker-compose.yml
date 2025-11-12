@@ -182,6 +182,7 @@ services:
       interval: 20s
       timeout: 10s
       retries: 6
+      start_period: 60s
 
 volumes:
   pgdata:
